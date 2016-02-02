@@ -37,15 +37,6 @@ public class TabPageIndicatorAdapter extends FragmentPagerAdapter {
 		return categories == null ? 0 : categories.size();
 	}
 
-	// @Override
-	// public Object instantiateItem(ViewGroup container, int position) {
-	// NewsFragment fragment = (NewsFragment) super.instantiateItem(container,
-	// position);
-	// String id = mCheckedCategoryList.get(position).getId();
-	// fragment.setId(id);
-	// return fragment;
-	// }
-
 	@Override
 	public int getItemPosition(Object object) {
 		return POSITION_NONE;
